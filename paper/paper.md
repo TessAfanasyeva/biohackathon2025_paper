@@ -7,26 +7,28 @@ tags:
   - unknown chemical substances
 authors:
   - name: First Author
-    affiliation: 1
-    role: Writing – original draft
+    affiliation: X
+  - name: Vedran Kasalica
+    orcid: 0000-0002-0097-1056
+    affiliation: 2
   - name: Last Author
     orcid: 0000-0000-0000-0000
-    affiliation: 2
-    role: Conceptualization, Writing – review & editing
+    affiliation: X
 affiliations:
-  - name: First Affiliation
+# Research Organization Registry (ROR) identifier. can be found at https://ror.org/
+  - name: Sanquin Research, Amsterdam, Plesmanlaan 125, 1066 CX, The Netherlands
+    ror: 01fm2fv39
     index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
+  - name: Health-RI, Jaarbeursplein 6, 3521 AL  Utrecht, The Netherlands
+    ror: 02xcmp898 
     index: 2
-date: 8 November 2023
+date: 8 November 2025
 cito-bibliography: paper.bib
-event: BH23EU
+event: BH25EU
 biohackathon_name: "BioHackathon Europe 2025"
-biohackathon_url:   "https://biohackathon-europe.org/"
+biohackathon_url: "https://biohackathon-europe.org/"
 biohackathon_location: "Berlin, Germany, 2025"
 group: Project 7
-# URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/TessAfanasyeva/biohackathon2025_paper
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
@@ -38,46 +40,8 @@ authors_short: First Author \emph{et al.}
 
 As part of the BioHackathon Europe 2023, we here report...
 
-## Meeting information
 
-If you want to submit a preprint to BioHackrXiv, first check if your meeting is registered. You can find a list
-of meetings [here](https://index.biohackrxiv.org/meetings). If your meeting is missing, please contact your meeting
-organizers. The above list also provides information on the YAML fields with information about the meeting.
 
-The following fields need to be given:
-
-```YAML
-biohackathon_name: "BioHackathon Europe 2023"
-biohackathon_url:   "https://biohackathon-europe.org/"
-biohackathon_location: "Barcelona, Spain, 2023"
-group: Project 26
-git_url: https://github.com/yourOrganization/your_report_repo
-```
-
-The [BioHackrXiv meeting pages](https://index.biohackrxiv.org/meetings) provide content to use for the first
-three fields. The `git_url:` field must have the link to the GitHub repository with your preprint (draft).
-
-## Author information
-
-Information about the authors is given in the [YAML](https://en.wikipedia.org/wiki/YAML) format at the top of this template.
-For authors you provide their names, their affiliations. That is the minimum, but as BioHackrXiv is moving to a situation
-where more metadata is shared, and used by, for example, EuropePMC, adding additional information ie encouraged.
-
-BioHackathons is about hacking together, and the minimal number of authors for reports is two. This makes a minimal example
-look like this:
-
-```yaml
-authors:
-  - name: First Author
-    affiliation: 1
-  - name: Last Author
-    affiliation: 2
-affiliations:
-  - name: First Affiliation
-    index: 1
-  - name: ELIXIR Europe
-    index: 2
-```
 
 ### Author identifiers
 
